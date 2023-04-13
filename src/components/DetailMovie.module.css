@@ -1,0 +1,46 @@
+
+.DM__container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.721);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.DM__title{
+    display: inline-block;
+}
+.DM__inner{
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 0;
+    padding: 4% 12%;
+    box-shadow: 0 13px 27px -5px rgba(255, 255, 255, 0.45),
+      0 8px 16px -8px rgba(255, 255, 255, 0.45), 0 -6px 16px -6px rgba(255, 255, 255, 0.45);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+}
+.DM__genres{
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.DM__genres li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.DM__star {
+    color: rgba(255, 255, 0, 0.92);
+    font-size: 25px;
+}
+.DM__rating {
+    font-size: 25px;
+}
